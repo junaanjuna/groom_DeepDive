@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover and Transition Example</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            transition: background-color 0.5s ease, transform 0.5s ease;
+            color: #ffffff; /*텍스트 색상*/
+            display: flex; /*텍스트 가운데*/
+            justify-content: center; /*가로 가운데*/
+            align-items: center; /*세로 가운데*/
+            border-radius: 10px; /*사각형의 모서리를 둥글게*/
+        }
+
+        .box:hover {
+            background-color: green;
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        mouse here!
+    </div>
+</body>
+</html>

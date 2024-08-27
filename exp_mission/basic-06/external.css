@@ -1,0 +1,9 @@
+.external{
+    background-color: darkcyan;
+}
+
+.external>p{
+    font-size: xx-large;
+    color: indianred;
+    text-align: center;
+}
