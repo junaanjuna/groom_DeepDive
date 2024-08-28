@@ -1,0 +1,20 @@
+/* block 요소: 화면에 블록처럼 표시됨. 각 요소는 새로운 줄에서 시작 */
+.block {
+    display: block;
+    background-color: lightcoral;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* inline 요소: 같은 줄에 이어서 표시됨 */
+.inline{
+    display: inline;
+    background-color: lightseagreen;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* none 요소: 화면에 표시되지 않음 */
+.none {
+    display: none;
+}
